@@ -19,6 +19,10 @@ dataset.head()
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 
 # Preprocessing: Encoding categorical variables
+# Preprocessing: Encoding categorical variables
+# Preprocessing: Encoding categorical variables
+# Preprocessing: Encoding categorical variables
+# Preprocessing: Encoding categorical variables
 label_encoders = {}
 for col in ['Soil_Type', 'Land_Use_Type', 'Crop_Suitability', 'Season']:
     le = LabelEncoder()
